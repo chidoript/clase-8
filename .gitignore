@@ -1,0 +1,18 @@
+# Esto de aca es un comentario y es ignorado por Git
+
+#Ignorar un archivo en especifico
+Ejemplo.java
+
+# * Ignorar todo lo que este en el repositorio local
+
+#Ignora todos los archivos que terminen con la extension especificada
+*.class 
+
+#Excepcion de un archivo en especifico
+!Ejemplo2.class
+
+#Ignora el directorio especificado
+/Carpeta/
+
+#Ignorar un archivo dentro de un directorio
+/Carpeta2/Ejemplo4.java
